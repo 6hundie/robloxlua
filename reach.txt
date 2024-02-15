@@ -1,4 +1,3 @@
-print("RAN MADE BY ME")
 local connections = getgenv().configs and getgenv().configs.connection
 if connections then
     local Disable = configs.Disable
@@ -14,7 +13,7 @@ local Disable = Instance.new("BindableEvent")
 getgenv().configs = {
     connections = {},
     Disable = Disable,
-    Size = Vector3.new(505,505,505),
+    Size = Vector3.new(25,25,25),
     DeathCheck = true
 }
 
